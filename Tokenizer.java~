@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class Tokenizer() {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter BSS:");
+        String s;
+        s = scan.nextLine();
+        System.out.printf("You entered the line %s\n", s);
+    }
+}
